@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Category" representedClassName="Category" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NewsObject" representedClassName="NewsObject" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="is_read" optional="YES" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="news_author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="news_description" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="news_link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="news_title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pub_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="NewsObject" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="Category" positionX="-54" positionY="54" width="128" height="60"/>
+    </elements>
+</model>

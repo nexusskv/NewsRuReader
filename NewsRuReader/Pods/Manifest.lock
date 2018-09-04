@@ -1,0 +1,24 @@
+PODS:
+  - AERecord (3.0.0)
+  - ReachabilitySwift (3)
+  - SWXMLHash (3.0.2)
+
+DEPENDENCIES:
+  - AERecord
+  - ReachabilitySwift
+  - SWXMLHash
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AERecord
+    - ReachabilitySwift
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  AERecord: eb32ea8474dfb46a7df5f7a08bfbd8853f713cfd
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SWXMLHash: e0f6935971f01b06fb228cf435510d998ecde647
+
+PODFILE CHECKSUM: 117f2c88c0864c3a21b20fb92951624257df0917
+
+COCOAPODS: 1.5.3

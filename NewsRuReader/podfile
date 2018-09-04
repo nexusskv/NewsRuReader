@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform :ios, '11.0'
+
+use_frameworks!
+
+inhibit_all_warnings!
+
+def all_pods
+  pod 'AERecord'
+  pod 'SWXMLHash'
+  pod 'ReachabilitySwift'
+end
+
+target 'NewsRuReader' do
+  all_pods
+end
